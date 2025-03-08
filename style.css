@@ -1,0 +1,453 @@
+body {
+  margin: 0;
+  font-family: "TT Lakes";
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #f8f8f8;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+}
+
+.upper-menu {
+  display: flex;
+  padding-top: 18.6px;
+  padding-bottom: 18.6px;
+  background-color: #ffffff;
+  width: 100%;
+  object-fit: cover;
+}
+
+.upper-menu__first-part {
+  display: flex;
+}
+
+.upper-menu__first-part--menu {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-left: 0px;
+  align-self: center;
+  justify-content: flex-start;
+}
+
+.upper-menu__first-part--menu {
+  display: flex;
+  width: 96.55px;
+  height: 50.81px;
+  margin-left: 16.73px;
+  flex-direction: flex-end;
+}
+.upper-menu__call {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  align-self: center;
+}
+
+.upper-menu__chat {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  align-self: center;
+}
+
+.upper-menu__profile {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  align-self: center;
+}
+
+.upper-menu__divider {
+  display: flex;
+  margin-left: 16.73px;
+  margin-right: 20px;
+}
+
+.upper-menu__repair {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+  align-self: center;
+}
+
+.upper-menu__checkstatus {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-self: center;
+}
+
+.upper-menu__shadow {
+  display: flex;
+  width: 100%;
+  max-height: 1px;
+  object-fit: cover;
+}
+
+.services {
+  display: flex;
+  font-size: 14px;
+  height: 40px;
+  flex-wrap: nowrap;
+  margin: 16px 16px 24px 0px;
+}
+
+h1 {
+  padding-left: 12px;
+  align-self: center;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.navigation-menu {
+  display: flex;
+  margin-left: 16px;
+  margin-bottom: 24px;
+  overflow-x: scroll;
+  font-size: 16px;
+}
+
+.navigation-menu text {
+  padding-left: 16px;
+  padding: auto;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+button {
+  margin-right: 8px;
+  display: flex;
+  text-wrap: nowrap;
+  color: #7e7e82;
+  height: 40px;
+  border: none;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+button:focus {
+  border-style: solid;
+  border-color: #b8ffec;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.company-info {
+  margin: 24px 16px 16px 16px;
+}
+
+.company-info__read-more {
+  max-height: 24px;
+  padding-left: 0;
+  margin-right: 0;
+  margin-bottom: 16px;
+}
+
+.company-info__read-more--button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-height: 24px;
+  color: #1b1c21;
+  font-weight: 600;
+}
+
+.company-info__read-more--button--icon {
+  padding-right: 8px;
+}
+
+.company-info__read-more:focus {
+  border-style: none;
+  background-color: #f8f8f8;
+  border-color: #f8f8f8;
+}
+
+@media all and (min-width: 320px) {
+  .company-info__2nd-block {
+    display: none;
+  }
+  .services {
+    margin-bottom: 24px;
+  }
+  .upper-menu__stick {
+    display: none;
+  }
+  .upper-menu__first-part {
+    width: 100%;
+  }
+  .upper-menu__header {
+    display: none;
+  }
+  .upper-menu__first-part--menu {
+    display: flex;
+    justify-content: flex-start;
+    width: 40px;
+    height: 40px;
+    padding-right: 16px;
+    margin-left: 16px;
+  }
+  .upper-menu__first-part--divider {
+    display: none;
+  }
+  .upper-menu__second-part {
+    display: none;
+  }
+  .upper-menu__third-part {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 16px;
+    margin-right: 16px;
+  }
+  .upper-menu__third-part--repair {
+    display: flex;
+    padding-left: 16px;
+  }
+  .upper-menu__third-part--bid {
+    display: none;
+  }
+  .upper-menu__third-part--status {
+    display: none;
+  }
+  .upper-menu__third-part--checkstatus {
+    display: flex;
+    padding-left: 16px;
+  }
+  .company-info__text--1st-block {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .company-info__text--2nd-block {
+    display: none;
+  }
+  .company-info__read-more {
+    max-height: 24px;
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 16px;
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .company-info__read-more--button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-height: 24px;
+    color: #1b1c21;
+    font-weight: 600;
+  }
+  .picture-logo__low {
+    height: 176px;
+    margin-left: -16px !important;
+  }
+  .picture-logo__high {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .upper-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .upper-menu__first-part {
+    display: flex;
+    padding-left: 10px;
+  }
+  .upper-menu__header {
+    display: none;
+  }
+  .upper-menu__stick {
+    display: none;
+  }
+  .upper-menu__first-part--menu {
+    display: flex;
+    justify-content: flex-start;
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+  }
+  .upper-menu__first-part--divider {
+    display: flex;
+    padding-right: 20px;
+  }
+  .upper-menu__second-part {
+    display: flex;
+    justify-content: flex-end;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+  }
+  .upper-menu__second-part--call {
+    display: flex;
+    margin-left: 16px;
+  }
+  .upper-menu__second-part--chat {
+    display: flex;
+    margin-left: 16px;
+  }
+  .upper-menu__second-part--profile {
+    display: flex;
+    margin-left: 16px;
+  }
+  .upper-menu__third-part {
+    display: flex;
+    margin-right: 20px;
+  }
+  .upper-menu__third-part--bid {
+    display: none;
+  }
+  .upper-menu__third-part--status {
+    display: none;
+  }
+  h1 {
+    padding-left: 20px;
+  }
+  .navigation-menu {
+    margin-bottom: 32px;
+  }
+  .company-info {
+    display: flex;
+    margin-top: 0;
+    margin-left: 24px;
+    margin-bottom: 0;
+  }
+  .company-info__text {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    height: 208px;
+    margin-right: 48px;
+  }
+  .company-info__text--1st-block {
+    margin: 0;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .company-info__text--2nd-block {
+    display: flex;
+    margin: 0;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .company-info__text--2nd-block--dash {
+    display: none;
+  }
+  .company-info__read-more {
+    margin-top: 10px;
+  }
+  .picture-logo {
+    display: flex;
+    justify-self: flex-end;
+    width: 360px;
+    height: 208px;
+  }
+  .picture-logo__low {
+    border-radius: 6px;
+    width: 360px;
+    height: 208px;
+  }
+  .picture-logo__high {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1120px) {
+  .upper-menu {
+    background-color: #F8F8F8;
+  }
+  .upper-menu__first-part {
+    display: none;
+  }
+  .upper-menu__stick {
+    display: flex;
+    position: absolute;
+    top: 36px;
+  }
+  .upper-menu__header {
+    display: flex;
+    padding-left: 42px;
+  }
+  .upper-menu__second-part {
+    visibility: hidden;
+    display: none;
+  }
+  .upper-menu__third-part {
+    justify-content: flex-end;
+  }
+  .upper-menu__third-part--divider {
+    visibility: hidden;
+  }
+  .navigation-menu {
+    flex-wrap: wrap;
+    padding-left: 28px;
+  }
+  .upper-menu__shadow {
+    display: none;
+  }
+  .services {
+    display: none;
+  }
+  h1 {
+    padding-left: 32px;
+  }
+  .company-info__text {
+    width: 490px;
+    height: 160;
+    margin-left: 18px;
+  }
+  .company-info__text--1st-block {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .company-info__text--2nd-block {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .company-info__text--2nd-block--dash {
+    display: contents;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .company-info__read-more {
+    margin-top: 14px;
+  }
+  .picture-logo__high {
+    width: 531px;
+    height: 307px;
+    display: flex;
+  }
+  .picture-logo__low {
+    display: none;
+  }
+  .upper-menu__third-part--bid {
+    display: flex;
+    flex-wrap: nowrap;
+    line-height: 24px;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    min-width: 125px;
+  }
+  .upper-menu__third-part--status {
+    display: flex;
+    flex-wrap: nowrap;
+    line-height: 24px;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    min-width: 120px;
+    margin-left: 32px;
+  }
+}
