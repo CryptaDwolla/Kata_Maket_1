@@ -3,7 +3,7 @@ body {
   font-family: "TT Lakes";
   font-weight: 400;
   font-size: 14px;
-  background-color: #f8f8f8;
+  background-color: #F8F8F8;
   overflow-x: hidden;
 }
 
@@ -107,19 +107,60 @@ h1 {
   line-height: 40px;
 }
 
-.navigation-menu {
+.navigation-menu__list {
   display: flex;
-  margin-left: 16px;
   margin-bottom: 24px;
   overflow-x: scroll;
   font-size: 16px;
+  padding: 0;
+  align-items: center;
 }
 
-.navigation-menu text {
+.company-info__read-more--button {
+  background: url('https://cryptadwolla.github.io/Kata_Maket_1/ic/expand.svg') no-repeat;
+}
+
+.navigation-menu__list > li {
+  display: flex;
   padding-left: 16px;
-  padding: auto;
   font-size: 16px;
-  line-height: 24px;
+  text-wrap: nowrap;
+  color: #7E7E82;
+  align-items: center;
+  height: 40px;  
+}
+
+a {
+  text-decoration: none;
+  color: #7E7E82;
+  padding: 8px 8px 8px 16px;
+}
+
+.navigation-menu__list > li > a:focus {
+  border: 2px solid #B8FFEC;
+  border-radius: 6px;
+}
+
+.upper-menu__third-part--bid--icon {
+  color: #1B1C21;
+}
+
+.upper-menu__third-part--bid--icon--bg {
+  background: url('https://cryptadwolla.github.io/Kata_Maket_1/ic/repair.svg') no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+}
+
+.upper-menu__third-part--bid--status--icon--bg {
+  background: url('https://cryptadwolla.github.io/Kata_Maket_1/ic/checkstatus.svg') no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+}
+
+.upper-menu__third-part--bid--status--icon {
+  color: #1B1C21;
 }
 
 button {
@@ -364,8 +405,13 @@ button:focus {
 }
 
 @media all and (min-width: 1120px) {
+  ul {
+    margin: 0;
+  }
   .upper-menu {
     background-color: #F8F8F8;
+    padding-bottom: 0;
+    height: 60px;
   }
   .upper-menu__first-part {
     display: none;
@@ -373,7 +419,7 @@ button:focus {
   .upper-menu__stick {
     display: flex;
     position: absolute;
-    top: 36px;
+    top: 28px;
   }
   .upper-menu__header {
     display: flex;
@@ -392,6 +438,9 @@ button:focus {
   .navigation-menu {
     flex-wrap: wrap;
     padding-left: 28px;
+  }
+  .navigation-menu__list {
+    flex-wrap: wrap;
   }
   .upper-menu__shadow {
     display: none;
@@ -448,6 +497,18 @@ button:focus {
     color: black;
     font-weight: 500;
     min-width: 120px;
-    margin-left: 32px;
+  }
+  .upper-menu__third-part--bid--icon--bg {
+    background: url('https://cryptadwolla.github.io/Kata_Maket_1/ic/repair.svg') no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+  }
+  
+  .upper-menu__third-part--bid--status--icon--bg {
+    background: url('https://cryptadwolla.github.io/Kata_Maket_1/ic/checkstatus.svg') no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
   }
 }
